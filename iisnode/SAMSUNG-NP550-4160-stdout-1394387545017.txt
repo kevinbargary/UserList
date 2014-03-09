@@ -1,0 +1,12 @@
+Express server listening on port \\.\pipe\fd45267f-58b4-4e82-a63e-78b2705f20c0
+[90mGET / [32m200 [90m78ms - 284[0m
+[90mGET /stylesheets/bootstrap-min.css [33m404 [90m3ms[0m
+[90mGET /adduser [33m404 [90m2ms[0m
+[90mGET /newuser [32m200 [90m11ms - 578[0m
+[90mGET /stylesheets/bootstrap-min.css [33m404 [90m2ms[0m
+[90mGET /newuser [32m200 [90m7ms - 578[0m
+[90mGET /stylesheets/bootstrap-min.css [33m404 [90m1ms[0m
+[90mGET /newuser [32m200 [90m12ms - 578[0m
+[90mGET /stylesheets/bootstrap-min.css [33m404 [90m1ms[0m
+[90mGET /newuser [32m200 [90m10ms - 578[0m
+[90mGET /stylesheets/bootstrap-min.css [33m404 [90m11ms[0m
