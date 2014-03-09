@@ -1,0 +1,20 @@
+Failed to load c++ bson extension, using pure JS version
+ReferenceError: C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\views\userlist.jade:4
+    2| 
+    3| block content
+  > 4|   h1.
+    5|     User List
+    6|   ul
+    7|     each iser, i in userlist
+
+title is not defined
+    at eval (eval at <anonymous> (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\jade\lib\jade.js:176:8))
+    at exports.compile (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\jade\lib\jade.js:181:12)
+    at Object.exports.render (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\jade\lib\jade.js:216:14)
+    at View.exports.renderFile [as engine] (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\jade\lib\jade.js:243:13)
+    at View.render (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\express\lib\response.js:753:7)
+    at Promise.<anonymous> (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\routes\index.js:18:17)
+    at Promise.EventEmitter.emit (events.js:99:17)
+    at Promise.<anonymous> (C:\Users\Kevin.Bargary\Documents\My Web Sites\User List\node_modules\monk\lib\promise.js:38:10)
