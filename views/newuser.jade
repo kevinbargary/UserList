@@ -2,7 +2,15 @@ extends layout
 
 block content
   h1= title
-  form#formAddUser(name='addUser',method='post',action="/adduser")
-    input#inputUserName(type='text', placeholder='username', name="username")
-    input#inputUserEmail(type='text', placeholder='useremail', name="useremail")
-    button#btnSubmit.btn.btn-primary(type='submit') Submit
+    form#formAddUser.form-horizontal(name='addUser',method='post',action="/adduser")
+        .form-group
+            label.col-sm-2.control-label(for='inputUserName') User name
+            .col-sm-10
+            input#inputUserName.form-control(type='text', placeholder='e.g testUser', name="username")
+        .form-group
+            label.col-sm-2.control-label(for='inputUserEmail') Email address
+            .col-sm-10
+            input#inputUserEmail.form-control(type='text', placeholder='e.g user@example.com', name="useremail")
+        .form-group
+            .col-sm-offset-2.col-sm-10
+                button#btnSubmit.btn.btn-default(type='submit') Submit
